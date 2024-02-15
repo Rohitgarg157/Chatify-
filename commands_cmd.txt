@@ -1,0 +1,23 @@
+npm create vite@latest .
+select React and javascript
+npm install
+npm init -y     it gives package.json file
+
+
+npm install express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken
+
+dotenv==we can read environment variable under this .env file
+bcryptjs==to encrypt the passwords 
+cookie-parser==to parse the cookies
+express==to use express server
+
+
+
+npm install nodemon --save-dev          we dont require to update the package.json everytime it automatically updates it.i.e,it automatically restarts the server for every change in code.
+
+To generate jwt encrypted token using secret key from cmd(bash)
+first put secret key in .env file
+JWT_SECRET=ROHIT
+now open bash in cmd and type 
+openssl rand -base64 32
+then replace the genereted token with secret key
