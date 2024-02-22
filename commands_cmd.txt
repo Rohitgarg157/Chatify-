@@ -21,3 +21,12 @@ JWT_SECRET=ROHIT
 now open bash in cmd and type 
 openssl rand -base64 32
 then replace the genereted token with secret key
+========================================================================================================================================================================================
+in frontend folder
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p         it creates tailwind.config.js,postcss.config.js files in folder frontend
+
+npm i -D daisyui@latest         to install daisyui the most popular component library for tailwindcss
+
+
