@@ -30,3 +30,7 @@ npx tailwindcss init -p         it creates tailwind.config.js,postcss.config.js 
 npm i -D daisyui@latest         to install daisyui the most popular component library for tailwindcss
 
 
+npm install react-icons --save  to add react icons such as search icons
+
+npm i react-router-dom
+
