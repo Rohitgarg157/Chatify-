@@ -14,7 +14,7 @@ export const SocketContextProvider=({children})=>{
     const {authUser}=useAuthContext();
     useEffect(()=>{
         if(authUser){
-            const socket=io("http://localhost:5000",
+            const socket=io("https://chatify-t1l6.onrender.com",
             {
                 query:{
                     userId:authUser._id  ,         
